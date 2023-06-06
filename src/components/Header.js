@@ -1,7 +1,7 @@
 import React   from 'react'  
 import '../App.css'  
 import img1 from '../img/f1.png'
-//  import { Link } from 'react-router-dom' 
+ import { Link } from 'react-router-dom' 
 const Header = (props) => {
     
   return (
@@ -32,7 +32,7 @@ const Header = (props) => {
               including versions of Lorem
               Ipsum...
               <br />
-              <a  > <button title='Read More from About Page' className='btn-read'>Read More 	&#8594; </button></a> 
+              <Link to='/about'> <button title='Read More from About Page' className='btn-read'>Read More 	&#8594; </button></Link> 
           </p>
       </header>
       </>
