@@ -1,5 +1,4 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react' 
 import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import * as IoIcons from 'react-icons/io'
@@ -13,18 +12,18 @@ function Navbar() {
               
                 <ul className='nav'  >
                     <li >
-                        <NavLink activeClassName="ractive" title='Web?_Logo' to="/">
+                         
                             <img src="favicon1.ico" alt="Trulli" />
-                        </NavLink>
+                      
                     </li>
                     <li>
-                        <NavLink activeClassName="ractive" title='Home' to="/"><AiIcons.AiFillHome /></NavLink>
+                         <AiIcons.AiFillHome /> 
                     </li>
                     <li>
-                        <NavLink activeClassName="active" title='About' to="/about"><FaIcons.FaEnvelopeOpenText /></NavLink>
+                         <FaIcons.FaEnvelopeOpenText /> 
                     </li>
                     <li>
-                        <NavLink activeClassName="active" title='Dashboard' to="/dashboard"><IoIcons.IoMdPeople /></NavLink>
+             <IoIcons.IoMdPeople /> 
                    
                     </li> 
                 </ul>
